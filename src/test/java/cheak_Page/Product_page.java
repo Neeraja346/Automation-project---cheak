@@ -15,10 +15,6 @@ public class Product_page {
 	@FindBy(xpath="//*[@id=\"section-header\"]/div[1]/div[1]/nav/ul/li[2]/a")
 	WebElement BestSeller;
 	
-
-	
-
-	
 	@FindBy(xpath="//*[@id=\"gf-products\"]/div[6]/div/div[2]/div[1]/div[1]/a")
 	WebElement prdct;
 	
@@ -49,8 +45,8 @@ public class Product_page {
 	}
 	public void Select_product() throws InterruptedException
 	{
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,500)", "");
+//		JavascriptExecutor js=(JavascriptExecutor) driver;
+//		js.executeScript("window.scrollBy(0,500)", "");
 		Thread.sleep(2000);
 		prdct.click();
 		Thread.sleep(2000);
