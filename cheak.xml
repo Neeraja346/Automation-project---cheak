@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <classes>
+            <class name="cheak_Test.Register_test"/>
+            <class name="cheak_Test.LoginTest"/>
+            <class name="cheak_Test.Product_Test"/>
+            <class name="cheak_Test.Cart_Test"/>
+            
+            
+        </classes>
+  
+ 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
